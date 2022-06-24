@@ -1,0 +1,76 @@
+body {
+  background-color: #3b3b5c;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+
+/*---------------------helper styles--------------------*/
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+.container {
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+/*-------------*/
+
+.header__text, .header__description {
+  color: white;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.header__text {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.header__description {
+  font-size: 2rem;
+  padding-bottom: 20px;
+}
+
+.posts {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-bottom: 10px;
+}
+.post {
+  width: 300px;
+  height: auto;
+  background-color: #fff;
+  margin: 5px;
+  padding: 10px;
+  border-radius: 10px;
+  position: relative;
+}
+
+.post__id {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px solid black;
+  margin-bottom: 10px;
+}
+
+.post__user-id {
+  color: green;
+  font-weight: 700;
+}
+
+.post__id-number {
+  font-weight: 700;
+}
+
+.post__title {
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.post__body {
+
+}
